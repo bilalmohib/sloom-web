@@ -1,0 +1,39 @@
+/* Ripple effect for buttons */
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+    animation: ripple-animation 0.6s ease-out;
+    z-index: 1;
+}
+
+[data-variant="destructive"] .ripple {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+[data-variant="outline"] .ripple,
+[data-variant="secondary"] .ripple,
+[data-variant="ghost"] .ripple {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.dark [data-variant="outline"] .ripple,
+.dark [data-variant="secondary"] .ripple,
+.dark [data-variant="ghost"] .ripple {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes ripple-animation {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/* End of ripple effect for buttons */
