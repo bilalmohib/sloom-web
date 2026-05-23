@@ -1,4 +1,4 @@
-export const SUPPORT_URL = 'https://support.beyondintelligence.ai/';
+export const SUPPORT_URL = 'https://support.sloom.app/';
 
 export type SignedInNavActionIcon = 'message-circle' | 'printer' | 'log-out';
 

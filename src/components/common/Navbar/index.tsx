@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 
 import Container from '@/components/common/Container';
 import DarkModeToggle from '@/components/common/DarkModeToggle';
-import SatoriLogo from '@/components/common/Navbar/SatoriLogo';
+import SloomLogo from '@/components/common/Navbar/SloomLogo';
 import SignedInNavbarActions from '@/components/common/Navbar/SignedInNavbarActions';
 import { useAuth } from '@/contexts/AuthContext';
 import { cn } from '@/lib/utils';
@@ -25,7 +25,7 @@ function Navbar({ className }: NavbarProps) {
     >
       <Container>
         <div className="flex items-center justify-between py-4">
-          <SatoriLogo to={isSignedIn ? '/patients' : '/'} />
+          <SloomLogo to={isSignedIn ? '/patients' : '/'} />
 
           {isSignedIn && isAppRoute ? (
             <SignedInNavbarActions />

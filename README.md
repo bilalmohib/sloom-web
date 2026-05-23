@@ -1,4 +1,4 @@
-# Satori Clinical — Frontend
+# Satori — Frontend
 
 Clinical web application for Beyond Intelligence’s Satori product. This repository contains the **standalone front-end** for the clinician-facing experience: authentication, report generation, patient search, and report review.
 
@@ -13,7 +13,7 @@ Clinical web application for Beyond Intelligence’s Satori product. This reposi
 
 ## Overview
 
-Satori Clinical helps pediatric clinics interpret environmental exposure data for patients. The UI is **static-first** (layout and content driven by API data; minimal client-side interactivity beyond forms, navigation, and session handling). Visual polish should match **best-in-class** performance and quality standards across the Beyond Intelligence platform.
+Satori helps pediatric clinics interpret environmental exposure data for patients. The UI is **static-first** (layout and content driven by API data; minimal client-side interactivity beyond forms, navigation, and session handling). Visual polish should match **best-in-class** performance and quality standards across the Beyond Intelligence platform.
 
 ### Core user flows
 
@@ -218,7 +218,7 @@ Before marking a screen complete:
 
 ## Repository context
 
-This repo is **separate** from other Beyond Intelligence codebases and dedicated to Satori Clinical front-end only. Back-end services and parent-facing intake may live elsewhere; coordinate API contracts and auth with the platform team.
+This repo is **separate** from other Beyond Intelligence codebases and dedicated to the Satori front-end only. Back-end services and parent-facing intake may live elsewhere; coordinate API contracts and auth with the platform team.
 
 ---
 

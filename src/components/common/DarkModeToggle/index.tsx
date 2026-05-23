@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import toast from 'react-hot-toast';
 import { CheckCheckIcon, Moon } from 'lucide-react';
 
-const THEME_STORAGE_KEY = 'satori-clinical-theme';
+const THEME_STORAGE_KEY = 'sloom-theme';
 const DARK_MODE_UNSUPPORTED_MESSAGE = "Dark mode isn't supported yet.";
 
 function ensureLightMode() {

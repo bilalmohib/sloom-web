@@ -12,11 +12,11 @@ const LoginForm = () => {
     <div className="my-auto flex min-w-[600px] flex-col items-center justify-center gap-8 rounded-[8px] bg-white px-5 py-20 shadow-[0_2px_6px_0_rgba(16,24,40,0.06)]">
       <div className="flex flex-col gap-1">
         <Heading2 className="text-input-text! tracking-[-0.92px]! leading-normal md:leading-13.75!">
-          Satori Clinical
+          Sloom
         </Heading2>
 
         <Paragraph className="text-input-text! md:text-base! lg:text-base!">
-          Secure access for pediatric clinicians{' '}
+          Loom-quality async video. Your storage. $5/month.
         </Paragraph>
       </div>
 

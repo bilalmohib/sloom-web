@@ -13,7 +13,7 @@ interface AuthContextValue {
   signOut: () => void;
 }
 
-const AUTH_STORAGE_KEY = 'satori-clinical-signed-in';
+const AUTH_STORAGE_KEY = 'sloom-signed-in';
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 

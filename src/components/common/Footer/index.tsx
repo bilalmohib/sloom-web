@@ -4,7 +4,7 @@ import Container from '@/components/common/Container';
 import { HelpCenterLogo } from '@/components/icons';
 import { policyLinks } from '@/components/common/Footer/data';
 
-const SUPPORT_URL = 'https://support.beyondintelligence.ai/';
+const SUPPORT_URL = 'https://support.sloom.app/';
 
 interface FooterProps {
   className?: string;
@@ -19,7 +19,7 @@ const Footer = ({ className }: FooterProps) => {
         <div className="flex flex-col gap-4 py-5 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-normal">
             <span className="text-input-text">
-              Copyright 2026. Beyond Intelligence. All rights reserved.
+              Copyright 2026. Sloom. All rights reserved.
             </span>
             <span className="text-input-text/30" aria-hidden>
               |
@@ -42,7 +42,7 @@ const Footer = ({ className }: FooterProps) => {
           </div>
 
           <div className="flex flex-wrap items-center gap-2 text-sm font-normal text-input-text">
-            <span>Can&apos;t find the report you&apos;re looking for?</span>
+            <span>Need help?</span>
             <a
               href={SUPPORT_URL}
               target="_blank"
